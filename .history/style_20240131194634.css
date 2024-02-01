@@ -1,0 +1,26 @@
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(249, 54, 6);
+}
+.logo{
+    width: 60px;
+}
+.navLinks a{
+    padding-right: 10px;
+    color: #fff;
+}
+.carousel-item img{
+    height: 80vh;
+}
+.overTxt{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: rgb(249, 54, 6);
+    font-size: 120px;
+}

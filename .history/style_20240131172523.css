@@ -1,0 +1,10 @@
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    width: 100%;
+    padding: ;
+}
+.logo{
+    width: 40px;
+}

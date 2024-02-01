@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 40px;
+    background-color: rgba(227, 67, 8, 0.834);
+    /* background: radial-gradient(rgba(227, 67, 8, 0.834), transparent); */
+}
+
+.logo {
+    width: 80px;
+}
+
+.navLinks {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLinks a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.navLinks a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(249, 54, 6);
+}
+
+.active {
+    color: red;
+    font-weight: bolder;
+}
+
+.wallpaper {
+    width: 100%;
+}
+
+.wallpaper img {
+    width: 100%;
+    height: 60vh;
+}
+
+.overTxt {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #fff;
+}
+
+.overTxt h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.careerList{
+    display: flex;
+    list-style: none;
+}
+.careerList li{
+    padding-right: 10px;
+}
+.careerList a{
+    text-decoration: underline;
+    color: #fff;
+}
+.careerList a:hover {
+    color: rgb(249, 54, 6);
+}
+
+/* Body */
+.missionTxt{
+    text-align: center;
+    padding: 35px;
+    font-size: 2rem;
+    width: 65%;
+    margin: auto;
+    font-weight: lighter;
+}
+.vision{
+    background: rgba(227, 67, 8, 0.834);
+    padding: 50px;
+    color: #fff;
+}
+.vision p{
+    font-weight: lighter;
+    text-align: center;
+}
+.visionTxt{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+/* Footer */
+.footerNav {
+    background: rgba(251, 83, 41, 0.834);
+    padding: 25px 15px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    align-items: center;
+}
+
+.footNavLink {
+    width: 75%;
+}
+
+.social {
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: rgb(249, 54, 6);
+}
+
+.copyright {
+    background: rgba(227, 67, 8, 0.834);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.copyright p {
+    margin-bottom: 0;
+}

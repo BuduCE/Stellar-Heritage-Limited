@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 30px;
+    background-color: rgb(249, 144, 6);
+}
+.logo{
+    width: 70px;
+}
+.navLinks{
+    width: 50%;
+}
+.navLinks a{
+    padding-right: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+.carousel-item img{
+    height: 80vh;
+}
+.overTxt{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.value{
+    padding: 50px;
+    background: rgb(249, 54, 6);
+}
+.value h2{
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    font-weight: lighter;
+    text-align: center;
+}

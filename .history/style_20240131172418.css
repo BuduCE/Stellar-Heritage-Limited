@@ -1,0 +1,7 @@
+nav{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.logo{
+    width: 40px;
+}

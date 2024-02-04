@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 40px;
+    background-color: rgba(227, 67, 8, 0.834);
+}
+.logo{
+    width: 120px;
+}
+.navLinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navLink{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.navLink:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(249, 54, 6);
+}
+.active {
+    color: red;
+    font-weight: bolder;
+}
+/* Responsive Nav */
+@media screen and (max-width: 596px) {
+    .navMob {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 100%;
+        padding: 5px 10px;
+        background-color: rgba(227, 67, 8, 0.834);
+    }
+    .navMobHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navLinks{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 5px 20px;
+        /* top: 15px;
+        right: 0; */
+        z-index: 5;
+        animation: fadeIn 4s;
+        /* box-shadow: -8px 9px 14px -3px rgba(0, 0, 0, 0.78);
+        -webkit-box-shadow: -8px 9px 14px -3px rgba(0, 0, 0, 0.78);
+        -moz-box-shadow: -8px 9px 14px -3px rgba(0, 0, 0, 0.78); */
+    }
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+.carousel-item img{
+    height: 80vh;
+}
+.overTxt{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.value{
+    padding: 50px;
+    background: rgba(227, 67, 8, 0.834);
+}
+.value h2{
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    font-weight: lighter;
+    text-align: center;
+}
+/* Footer */
+.footerNav{
+    background: rgba(251, 83, 41, 0.834);
+    padding: 25px 15px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    align-items: center;
+}
+.footNavLink{
+    width: 75%;
+}
+.social{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social a:hover{
+    text-decoration: none;
+    color: rgb(249, 54, 6);
+}
+.copyright {
+    background: rgba(227, 67, 8, 0.834);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.copyright p{
+    margin-bottom: 0;
+}

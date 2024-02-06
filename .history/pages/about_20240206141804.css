@@ -16,9 +16,7 @@
     background-color: rgba(227, 67, 8, 0.834);
     /* background: radial-gradient(rgba(227, 67, 8, 0.834), transparent); */
 }
-.navMob {
-    display: none;
-}
+
 .logo {
     width: 80px;
 }
@@ -92,28 +90,22 @@
         flex-direction: column;
         animation: fadeIn 4s;
     }
+
     .navLink {
         border-bottom: solid #e97e0b;
         border-width: 1px;
     }
-    .navLink:hover {
-        background: rgba(6, 130, 141, 0.834);
-    }
 
-    .navLinkBtn,
-    .navLinkBtn:active,
-    .navLinkBtn:focus {
+    .navLink button {
         padding: 5px 10px;
         background: none;
         border: none;
         color: #fff;
-        outline: none;
-        cursor: pointer;
+        /* font-weight: lighter; */
     }
 }
 .aboutWallper{
     width: 100%;
-    position: relative;
 }
 .aboutWallper img{
     width: 100%;
@@ -128,18 +120,6 @@
 .overTxt h1{
     font-size: 3rem;
     font-weight: bolder;
-}
-/* Responsiveness  */
-@media screen and (max-width: 767px) {
-    .aboutWallper img {
-        height: 40vh;
-    }
-    .overTxt {
-        top: 30%;
-    }
-    .overTxt h1{
-        font-size: 2rem;
-    }
 }
 
 /* Body */
@@ -158,8 +138,7 @@
 
 /* Footer */
 .footerNav {
-    /* background: rgba(251, 83, 41, 0.834); */
-    background: rgba(5, 112, 122, 0.834);
+    background: rgba(251, 83, 41, 0.834);
     padding: 25px 15px;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -168,9 +147,6 @@
 
 .footNavLink {
     width: 75%;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
 }
 
 .social {
@@ -185,45 +161,12 @@
 }
 
 .copyright {
-    /* background: rgba(227, 67, 8, 0.834); */
-    background: rgba(8, 209, 227, 0.834);
+    background: rgba(227, 67, 8, 0.834);
     padding: 10px;
     text-align: center;
     color: #fff;
 }
 
-/* Responsiveness */
-@media screen and (max-width: 767px) {
-    .footerNav {
-        grid-template-columns: 1fr;
-        /* margin: auto; */
-    }
-
-    .footNavLink {
-        width: 65%;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .footNavLink li {
-        padding: 0 10px;
-    }
-
-    .footLink{
-        border: none;
-        outline: none;
-    }
-
-    .social {
-        width: 60%;
-        margin: auto;
-        margin-top: 15px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .footNavLink {
-        width: 95%;
-    }
+.copyright p {
+    margin-bottom: 0;
 }

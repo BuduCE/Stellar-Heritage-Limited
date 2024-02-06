@@ -181,10 +181,10 @@
     .footNavLink li{
         padding: 0 10px;
     }
-    .footLink {
-        border: none;
-        outline: none;
-    }
+        .footLink {
+            border: none;
+            outline: none;
+        }
     .social{
         width: 60%;
         margin: auto;

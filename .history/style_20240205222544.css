@@ -74,6 +74,7 @@
         display: none;
     }
     .navLinks{
+        /* display: flex; */
         width: 100%;
         flex-direction: column;
         animation: fadeIn 4s;
@@ -82,18 +83,12 @@
         border-bottom: solid #e97e0b;
         border-width: 1px;
     }
-    .navLink:hover{
-        background: rgba(6, 130, 141, 0.834);
-    }
-    .navLinkBtn,
-    .navLinkBtn:active,
-    .navLinkBtn:focus{
+    .navLink button{
         padding: 5px 10px;
         background: none;
         border: none;
         color: #fff;
-        outline: none;
-        cursor: pointer;
+        /* font-weight: lighter; */
     }
 }
 .carousel-item img{
@@ -103,7 +98,7 @@
     position: absolute;
     top: 50%;
     left: 15%;
-    color: rgb(249, 54, 6);
+    color: #fff;
     font-size: 3rem;
     font-weight: bolder;
 }
@@ -180,10 +175,6 @@
     }
     .footNavLink li{
         padding: 0 10px;
-    }
-    .footLink {
-        border: none;
-        outline: none;
     }
     .social{
         width: 60%;

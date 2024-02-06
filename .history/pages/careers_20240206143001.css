@@ -16,9 +16,7 @@
     background-color: rgba(227, 67, 8, 0.834);
     /* background: radial-gradient(rgba(227, 67, 8, 0.834), transparent); */
 }
-.navMob {
-    display: none;
-}
+
 .logo {
     width: 80px;
 }
@@ -39,120 +37,91 @@
     text-decoration: none;
     color: rgb(249, 54, 6);
 }
-.active{
+
+.active {
     color: red;
     font-weight: bolder;
 }
 
-/* Responsive Nav */
-@media screen and (max-width: 767px) {
-    .navMob {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        width: 100%;
-        background-color: rgba(8, 209, 227, 0.834);
-    }
-
-    #nav {
-        display: none;
-    }
-
-    .navMobHeader {
-        padding: 5px 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .hamburger button,
-    button:active,
-    button:focus {
-        background: none;
-        border: none;
-        cursor: pointer;
-        outline: none;
-    }
-
-    #open {
-        display: block;
-    }
-
-    #close {
-        display: none;
-    }
-
-    #links {
-        display: none;
-    }
-
-    .navLinks {
-        /* display: flex; */
-        width: 100%;
-        flex-direction: column;
-        animation: fadeIn 4s;
-    }
-    .navLink {
-        border-bottom: solid #e97e0b;
-        border-width: 1px;
-    }
-    .navLink:hover {
-        background: rgba(6, 130, 141, 0.834);
-    }
-
-    .navLinkBtn,
-    .navLinkBtn:active,
-    .navLinkBtn:focus {
-        padding: 5px 10px;
-        background: none;
-        border: none;
-        color: #fff;
-        outline: none;
-        cursor: pointer;
-    }
-}
-.aboutWallper{
+.wallpaper {
     width: 100%;
-    position: relative;
 }
-.aboutWallper img{
+
+.wallpaper img {
     width: 100%;
     height: 60vh;
 }
+
 .overTxt {
     position: absolute;
     top: 50%;
     left: 20px;
     color: #fff;
 }
-.overTxt h1{
+
+.overTxt h1 {
     font-size: 3rem;
     font-weight: bolder;
 }
-/* Responsiveness  */
-@media screen and (max-width: 767px) {
-    .aboutWallper img {
-        height: 40vh;
-    }
-    .overTxt {
-        top: 30%;
-    }
-    .overTxt h1{
-        font-size: 2rem;
-    }
+.careerList{
+    display: flex;
+    list-style: none;
+}
+.careerList li{
+    padding-right: 10px;
+}
+.careerList a{
+    text-decoration: underline;
+    color: #fff;
+}
+.careerList a:hover {
+    color: rgb(249, 54, 6);
 }
 
 /* Body */
-.businessList{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style-type: none;
+.missionTxt{
+    text-align: center;
+    padding: 35px;
+    font-size: 2rem;
+    width: 65%;
+    margin: auto;
+    font-weight: lighter;
 }
-.businessList li{
+.vision{
+    background: rgba(227, 67, 8, 0.834);
+    padding: 50px;
+    color: #fff;
+}
+.visionHead{
+    /* font-weight: lighter; */
+    text-align: center;
+    font-size: 1.5rem;
+}
+.visionTxt{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
     padding: 20px;
 }
-.businessList li h2{
+.value{
+    padding: 35px;
+}
+.valueHead{
+    text-align: center;
+}
+.valueRow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.valueTxt{
+    font-size: 1.5rem;
     font-weight: lighter;
+}
+.alphaLetter{
+    font-size: 3rem;
     color: rgba(227, 67, 8, 0.834);
 }
 
@@ -208,11 +177,6 @@
 
     .footNavLink li {
         padding: 0 10px;
-    }
-
-    .footLink{
-        border: none;
-        outline: none;
     }
 
     .social {

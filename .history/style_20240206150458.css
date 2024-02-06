@@ -82,19 +82,14 @@
         border-bottom: solid #e97e0b;
         border-width: 1px;
     }
-    .navLink:hover{
-        background: rgba(6, 130, 141, 0.834);
-    }
-    .navLinkBtn,
-    .navLinkBtn:active,
-    .navLinkBtn:focus{
+    .navLink button{
         padding: 5px 10px;
         background: none;
         border: none;
         color: #fff;
         outline: none;
-        cursor: pointer;
     }
+    
 }
 .carousel-item img{
     height: 80vh;
@@ -180,10 +175,6 @@
     }
     .footNavLink li{
         padding: 0 10px;
-    }
-    .footLink {
-        border: none;
-        outline: none;
     }
     .social{
         width: 60%;

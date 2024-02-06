@@ -83,7 +83,7 @@
         border-width: 1px;
     }
     .navLink:hover{
-        background: rgba(6, 130, 141, 0.834);
+        background: (8, 209, 227, 0.834);
     }
     .navLinkBtn,
     .navLinkBtn:active,
@@ -180,10 +180,6 @@
     }
     .footNavLink li{
         padding: 0 10px;
-    }
-    .footLink {
-        border: none;
-        outline: none;
     }
     .social{
         width: 60%;

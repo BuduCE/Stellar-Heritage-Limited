@@ -225,12 +225,8 @@
         padding: 0;
     }
 }
-@media screen and (max-width: 350px) {
-    .valueRow{
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
-    }
+@media screen {
+    
 }
 
 /* Footer */

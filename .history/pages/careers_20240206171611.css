@@ -227,9 +227,7 @@
 }
 @media screen and (max-width: 350px) {
     .valueRow{
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
+        flex-direction: colu;
     }
 }
 

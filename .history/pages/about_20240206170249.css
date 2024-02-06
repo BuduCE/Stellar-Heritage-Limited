@@ -161,8 +161,8 @@
 }
 @media screen and (max-width: 676px){
     .aboutPane {
-        text-align: center;
-    }
+            text-align: cente;
+        }
     .businessList{
         grid-template-columns: 1fr;
     }

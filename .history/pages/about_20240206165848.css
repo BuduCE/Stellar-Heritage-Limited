@@ -143,10 +143,6 @@
 }
 
 /* Body */
-.aboutTxt{
-    font-weight: lighter;
-    padding: 20px;
-}
 .businessList{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -158,14 +154,6 @@
 .businessList li h2{
     font-weight: lighter;
     color: rgba(227, 67, 8, 0.834);
-}
-@media screen and (max-width: 676px){
-    .aboutPane {
-        text-align: center;
-    }
-    .businessList{
-        grid-template-columns: 1fr;
-    }
 }
 
 /* Footer */

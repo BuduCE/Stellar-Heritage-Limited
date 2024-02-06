@@ -175,7 +175,7 @@
 }
 .vision{
     background: rgba(8, 209, 227, 0.834);
-    padding: 50px;
+    /* padding: 50px; */
     color: #fff;
 }
 .visionHead{
@@ -213,16 +213,6 @@
 @media screen and (max-width: 767px) {
     .missionTxt{
         width: 100%;
-    }
-    .vision{
-        padding: 20px 0 0 0;
-    }
-    .visionTxt{
-        width: 100%;
-        font-size: 1.5rem;
-    }
-    .value, .valueRow{
-        padding: 0;
     }
 }
 

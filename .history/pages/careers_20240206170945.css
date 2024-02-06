@@ -184,7 +184,7 @@
     font-size: 1.5rem;
 }
 .visionTxt{
-    width: 65%;
+    /* width: 65%; */
     margin: auto;
     text-align: center;
     font-size: 2rem;
@@ -215,13 +215,6 @@
         width: 100%;
     }
     .vision{
-        padding: 20px 0 0 0;
-    }
-    .visionTxt{
-        width: 100%;
-        font-size: 1.5rem;
-    }
-    .value, .valueRow{
         padding: 0;
     }
 }

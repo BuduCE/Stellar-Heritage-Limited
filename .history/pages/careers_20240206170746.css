@@ -211,19 +211,7 @@
     color: rgba(227, 67, 8, 0.834);
 }
 @media screen and (max-width: 767px) {
-    .missionTxt{
-        width: 100%;
-    }
-    .vision{
-        padding: 20px 0 0 0;
-    }
-    .visionTxt{
-        width: 100%;
-        font-size: 1.5rem;
-    }
-    .value, .valueRow{
-        padding: 0;
-    }
+    .missi
 }
 
 /* Footer */

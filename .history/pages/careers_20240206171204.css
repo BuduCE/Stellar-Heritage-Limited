@@ -192,7 +192,7 @@
     padding: 20px;
 }
 .value{
-    padding: 35px;
+    /* padding: 35px; */
 }
 .valueHead{
     text-align: center;
@@ -200,7 +200,7 @@
 .valueRow{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .valueTxt{
     font-size: 1.5rem;
@@ -215,13 +215,13 @@
         width: 100%;
     }
     .vision{
-        padding: 20px 0 0 0;
+        padding: 0;
     }
     .visionTxt{
         width: 100%;
         font-size: 1.5rem;
     }
-    .value, .valueRow{
+    .value, .{
         padding: 0;
     }
 }
